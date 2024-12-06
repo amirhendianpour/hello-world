@@ -60,5 +60,7 @@ async def predict(file: UploadFile = File(...)):
     return {"predictions_ob": [prediction.dict() for prediction in predictions_ob],
              "predictions_cls": [prediction.dict() for prediction in predictions_cls]}
 
-# if __name__ == "__main__":
+if __name__ == "__main__": 
+    import uvicorn 
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
