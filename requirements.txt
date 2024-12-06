@@ -1,3 +1,4 @@
 ultralytics
 uvicorn
-flask
+fastapi
+python-multipart
