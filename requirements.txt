@@ -1,4 +1,0 @@
-ultralytics
-uvicorn
-fastapi
-python-multipart
